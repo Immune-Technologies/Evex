@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Entry.cpp" />
+    <ClCompile Include="Libraries\Console\Console.cpp">
+      <Filter>Libraries\Console</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Addresses">
+      <UniqueIdentifier>{8ebf5448-0fc5-47d2-8f44-2bc6d07c7c95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries">
+      <UniqueIdentifier>{7422d1d6-3a4e-45fa-a77b-fad851f39309}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\Console">
+      <UniqueIdentifier>{af63c57a-c9ea-4667-958f-df7538c83588}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Config.h" />
+    <ClInclude Include="Addresses\Addresses.h">
+      <Filter>Addresses</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\Console\Console.hpp">
+      <Filter>Libraries\Console</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
