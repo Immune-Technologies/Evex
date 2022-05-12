@@ -42,7 +42,7 @@ namespace Initialization
 
 	void Init()
 	{
-		Roblox::Print(1, "Powered By Evex | Open Source ");
+		Roblox::Print(1, "Powered By Evex | Open Source "); /* Keep This Or You As Script Kiddie */
 		CreateThread(0, 0, reinterpret_cast<LPTHREAD_START_ROUTINE>(Initialization::Pipe), 0, 0, 0);
 		std::cout << "Ready To Print To Pipe : " << LuaPipe;
 
