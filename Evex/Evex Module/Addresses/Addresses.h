@@ -8,5 +8,5 @@
 namespace Roblox
 {
 	using PrintType = int(__cdecl*)(int Type, const char* Message);
-	PrintType Print = (PrintType)(aslr(0x75C120));
+	PrintType Print = (PrintType)(aslr(0x75B140));
 }
