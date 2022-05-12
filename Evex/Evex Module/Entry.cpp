@@ -1,7 +1,5 @@
 /*
-* Credit To Rexi#6017 Been A Great Friend And Tought 
-* Me Most If Not All Of This, Wouldn't Be Able To Do 
-* Such Things Without Him <3 Rexi
+* Credit To Rexi Been A Great Friend And Tought Me A Lot Of C++ And Roblox Internals Related Stuff 
 */
 
 /* <-- Includes --> */
