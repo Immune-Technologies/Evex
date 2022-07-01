@@ -8,5 +8,5 @@
 namespace Roblox
 {
 	using PrintType = int(__cdecl*)(int Type, const char* Message);
-	PrintType Print = (PrintType)(aslr(0x75B140)); /* Needs Updated Each Roblox Update, Updated : 5/11/2022 */ 
+	PrintType Print = (PrintType)(aslr(0x7EB4E0)); /* Needs Updated Each Roblox Update, Updated : 7/1/2022 */ 
 }
